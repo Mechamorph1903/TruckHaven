@@ -4,7 +4,7 @@ Submitted by: **Daniel Anorue**
 
 This web app: **Displays cards of Various foood trucks, showing name, cuisine type and a button to access more info from their various websites**
 
-Time spent: **2** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 

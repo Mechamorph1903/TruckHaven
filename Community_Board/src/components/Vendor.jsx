@@ -5,7 +5,7 @@ const Vendor = (props) => {
         <td className={'Vendor ' + props.type}>
             <img src={props.imglink} className='vendorImg' alt={`${props.name} logo`} />
             <h3>{props.name}</h3>
-            <h6>{props.type}</h6>
+            <h4>{props.type}</h4>
             <button>
                 <a href={props.menu} target="_blank" rel="noopener noreferrer">More Info</a>
             </button>

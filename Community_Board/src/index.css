@@ -7,34 +7,35 @@ body {
   justify-content: center;
   min-width: 320px;
   min-height: 100vh;
-  padding: 20px; /* Add padding for better spacing on smaller screens */
+  padding: 20px; 
 }
 
 h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  text-align: center; /* Center align text */
+  text-align: center;
 }
 
-/* Table styles */
+
 table {
-  width: 100%;
-  max-width: 100%; /* Limit the maximum width */
-  border-collapse: separate; /* Use separate borders to allow spacing */
-  border-spacing: 20px; /* Add spacing between cells */
-  margin: 0 auto; /* Center the table */
-  position: relative;
+    width: 100%;
+    max-width: 100%;
+    border-collapse: separate;
+    border-spacing: 20px;
+    margin: 0 auto;
+    position: relative;
 }
 
-th, td .Vendor{
-  border: none; /* Remove borders */
-  padding: 16px; /* Add padding for card-like appearance */
-  text-align: center; /* Horizontal alignment */
-  vertical-align: middle; /* Vertical alignment */
-  background-color: #f9f9f9; /* Light background color for cards */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for card effect */
-  border-radius: 8px; /* Rounded corners for cards */
+th, td, .Vendor{
+border: none;
+padding: 18px;
+text-align: center;
+vertical-align: middle;
+background-color: #f9f9f9;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
 }
+
 tr{
     display: flex;
     justify-content: center;
@@ -44,7 +45,7 @@ tr{
 
 th {
   background-color: #5d3b3bbf;
-  width: 100%; /* Full width */
+  width: 100%;
   font-size: x-large;
   text-shadow: 
     -1px -1px 0 #fff,  
@@ -54,46 +55,48 @@ th {
     color: burlywood;
 }
 
-/* Flexbox for td contents */
+
 .Vendor td {
   display: flex;
   flex-direction:  column;
   align-items: center;
-  width: 100%; /* Full width */
+  width: 100%; 
   height: 180px;
   position: relative;
 }
 
-/* Image styles */
+
 .vendorImg {
-  width: 300px; /* Increase the width */
-  height: 250px; /* Maintain aspect ratio */
-  border-radius: 4px; /* Slightly round the corners of images */
+width: 300px;
+height: 250px;
+border-radius: 4px;
   position: relative;
 }
-h6{
+
+h4{
     position: relative;
 }
+
 /* Button styles */
 button {
-  background-color: #4CAF50; /* Green background */
-  color: white; /* White text */
-  padding: 10px 20px; /* Padding */
-  border: none; /* Remove border */
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer; /* Pointer cursor on hover */
-  font-size: 1rem; /* Font size */
-  transition: background-color 0.3s ease; /* Smooth transition */
+  background-color: #4CAF50; 
+  color: white;
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 1rem; 
+  transition: background-color 0.3s ease;
   position: relative;
 }
 
 button:hover {
-  background-color: #45a049; /* Darker green on hover */
+  background-color: #45a049; 
 }
 
 button a {
-  color: white; /* Ensure link text is white */
-  text-decoration: none; /* Remove underline from link */
+  color: white; 
+  text-decoration: none; 
 }
 
 /* Specific styles for different vendor types */
@@ -140,7 +143,7 @@ button a {
       
   .Japanese {
           background-image: url('https://t3.ftcdn.net/jpg/00/62/19/54/360_F_62195416_wfzM4Baz70OjEU54EhsCpvuQWlIhukPg.jpg');
-          position: relative; /* Position relative for inner circle */    
+          position: relative;   
           align-items: center;
           justify-content: center;
       }

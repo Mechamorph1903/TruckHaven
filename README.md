@@ -1,4 +1,4 @@
-# Web Development Project 1 - *Comunity Board*
+# Web Development Project 1 - *Community Board*
 
 Submitted by: **Daniel Anorue**
 

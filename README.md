@@ -1,10 +1,10 @@
-# Web Development Project 1 - *Comunity Board*
+# Web Development Project 1 - *Community Board*
 
 Submitted by: **Daniel Anorue**
 
 This web app: **Displays cards of Various foood trucks, showing name, cuisine type and a button to access more info from their various websites**
 
-Time spent: **2** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
@@ -26,10 +26,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='\Community_Board\videoWalkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='.\Community_Board\videoWalkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with LiceCap
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows

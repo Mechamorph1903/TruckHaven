@@ -1,4 +1,4 @@
-# Web Development Project 1 - *Community Board*
+# Web Development Project 1 - *TruckHaven*
 
 Submitted by: **Daniel Anorue**
 
